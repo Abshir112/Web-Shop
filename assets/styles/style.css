@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif; 
+    background-color: #fefefe;
 }
 @keyframes rotatingGradient {
     0% {
@@ -122,6 +123,24 @@ header{
     
 }
 
+.logo-and-booktype {
+    display: inline-flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.logo-and-booktype img{
+    margin-top: 12px;
+    margin-right: 5px;
+}
+.logo-and-booktype #ux-logo {
+    margin: 0;
+}
+.logo-and-booktype #ux-h2 {
+
+    /* margin-top: 30px; */
+}
+
 .filtering {
     margin-top: 10px;
 
@@ -171,6 +190,7 @@ header{
 
 .book {
     transition: transform 0.3s ease;
+
 }
 
 .book:hover {
@@ -211,7 +231,7 @@ header{
 }
 
 .buy-button {
-    background-color: #4CAF50; 
+    background-color: #6dc71d; 
     color: white;
     padding: 10px 20px; 
     border: none; 
